@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Plaid CTF"
+date:   2015-04-15 18:37:26
+categories: "news"
+tags:
+- ndh
+author: "sibios"
+---
+
+Vegan Zombies will be competing in [Plaid Parliament of Pwning][ppp]'s yearly CTF this weekend.  The game will be starting Friday, April 10, at 2pm Pacific and running for 48 hours.  More information can be found on the [PlaidCTF][plaidctf] site.
+
+[ppp]: http://www.pwning.net/
+[plaidctf]: http://www.plaidctf.com/
