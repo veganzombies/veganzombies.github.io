@@ -2,12 +2,12 @@
 layout: post
 title:  "Nuit du Hack - facesec"
 date:   2015-04-08 21:55:00
-categories: writeups
+categories: "writeups"
 tags:
 - ndh
 - web
 excerpt: "Caught mid-thought (wondering whether faceSec's famous breakrooms carry my favorite small-batch, gluten-free, co-op produced snack food) I realized that I had failed to include my letter of motivation or done anything with that tar upload functionality.  D'oh!"
-author: anonymous_zombie
+author: "anonymous_zombie"
 ---
 
 >"Hello there,
