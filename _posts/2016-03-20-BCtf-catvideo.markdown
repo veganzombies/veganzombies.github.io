@@ -29,7 +29,9 @@ Kitty! :D 😺😺😺 At this point, we grabbed a raw 360p copy of this video. 
 
 The first pass attempt was to try to go frame by frame between the two videos, diffing (XOR) to cancel out the cover file (Maru) presumably leaving us with just the data containing the flag: this does in fact remove the cover file, unfortunately what is left is static.  The next pass was to iterate over the provided video's frames in pairs ((1,2),(2,3),...(n-1,n)) diffing the pairs.
 
-`for i in `seq 2 9`; do convert stego/00$(expr $i - 1).jpg stego/00$i.jpg -fx "(((255u)&(255(1-v)))|((255(1-u))&(255v)))/255" noncover/00$i.jpg; done`
+```
+for i in `seq 2 9`; do convert stego/00$(expr $i - 1).jpg stego/00$i.jpg -fx "(((255u)&(255(1-v)))|((255(1-u))&(255v)))/255" noncover/00$i.jpg; done
+```
 
 007.jpg (stego/006.jpg ^ stego/007.jpg) has text in the flag format in the bottom of the frame.
 
